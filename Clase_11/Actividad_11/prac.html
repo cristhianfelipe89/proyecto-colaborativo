@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <script>
+        let estudiantes =     [
+    {
+    "nombre":"Cristhian",
+    "apellido":"Herrera",
+    "telefonos":[1111111, 5555555],
+    "edad":"55"
+},
+
+{
+    "nombre":"Hugo",
+    "apellido":"Lacerda",
+    "telefonos":[7777777, 3015556644],
+    "edad":"39"
+}
+]
+console.log(estudiantes)
+console.log(estudiantes[0])
+
+
+estudiantes.forEach(element => {
+    console.log(element.telefonos[0])
+});
+
+
+
+let productos = [
+{
+    "nombre": "Televisor 4K",
+    "codigo": "TV001",
+    "cantidad": 10,
+    "precio": 300
+},
+{
+    "codigo": "AU002",
+    "nombre": "Auriculares Bluetooth",
+    "precio": 50,
+    "cantidad": 2,
+},
+{
+    "codigo": "SP003",
+    "cantidad": 0,
+    "precio": 500,
+    "nombre": "Smartphone",
+},
+{
+"nombre": "Laptop",
+"codigo": "LP004",
+"cantidad": 15,
+"precio": 800
+}
+]
+        
+
+
+
+    </script>
+</body>
+</html>

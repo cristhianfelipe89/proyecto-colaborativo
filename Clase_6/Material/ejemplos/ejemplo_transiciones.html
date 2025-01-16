@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba TRansiciones</title>
+
+    <style>
+        .caja {
+        width: 200px; /* Ancho de la caja de 200 píxeles */
+        height: 200px; /* Altura de la caja de 200 píxeles */
+        background-color: #3498db; /* Color de fondo azul */
+        transition: all 0.5s ease; /* Transición suave de 0.5 segundos para cualquier cambio de estilo */
+        margin: 50px auto; /* Centra la caja horizontalmente con un margen de 50 píxeles arriba y abajo */
+        }
+
+        .caja:hover {
+         background-color: #2ecc71; /* Cambia el color de fondo a verde */
+         transform: scale(0.8); /* Aumenta el tamaño de la caja un 20% */
+    }
+
+    @keyframes animarCaja {
+  /* Estado inicial de la animación (0%) */
+    0% {
+        background-color: #3498db; /* Color de fondo azul */
+        transform: rotate(0deg); /* La caja no tiene rotación */
+     }
+  
+  /* Estado final de la animación (100%) */
+    100% {
+        background-color: #e74c3c; /* Color de fondo rojo */
+        transform: rotate(360deg); /* La caja gira 360 grados (vuelta completa) */
+     }
+}
+
+    </style>
+</head>
+<body>
+        <div class="caja">Caja1</div> <!-- Primera caja -->
+</body>
+</html>

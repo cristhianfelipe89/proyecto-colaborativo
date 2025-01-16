@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form action="tablas.html">
+        <fieldset name="campo" id="campo">
+            <legend>Registro de Producto</legend>
+        Nombre del producto: <input type="text" id="name_product" name="name_product"required>
+        <br><br>
+        Precio <input type="text" name="precio" id="precio" required>
+        <br><br>
+        Categoria: <select>
+            <option value="">Electronica</option>
+            <option value="">Muebles</option>
+            <option value="">Ropa</option>
+            <option value="">Juguetes</option>
+            <option value="">Deportes</option>
+        </select>
+        <br><br>
+        <input type="button" value="enviar" id="enviar">
+    </fieldset>
+    </form>
+    <br><br><br><br>
+    <h1><center>Resultado</center></h1>
+    <table border="1" cellspacing="5" cellpadding="10" width="100%"
+    align="center">
+        <thead bgcolor="lightgray">
+            <tr>
+                <th colspan="2">Producto</th>
+                <th>Precio</th>
+                <th>Categoría</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Smartphone</td>
+                <td>$500</td>
+                <td>Electrónica</td>
+            </tr>
+            <tr>
+                <td colspan="2">Laptop</td>
+                <td>$1200</td>
+                <td>Electrónica</td>
+            </tr>
+            <tr>
+                <td colspan="2">Mesa de oficina</td>
+                <td>$150</td>
+                <td>Muebles</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

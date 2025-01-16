@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor{
+            display: flex; /* Convierte el contenedor en un contenedor flexbox */
+            flex-direction: column; /* Alinea los elementos hijos en una columna vertical */
+            justify-content: space-between; /* Distribuye el espacio entre los elementos */
+            align-items: center; /* Centra los elementos horizontalmente en el contenedor */
+            height: 200px; /* Altura del contenedor */
+            background-color: #f0f0f0; /* Color de fondo gris claro */
+            padding: 100px; /* Espaciado interno alrededor del contenedor */
+            gap: 20px; /* Espacio entre los elementos hijos */
+            
+        }
+        .cajas{
+            background-color: #3498db; /* Color de fondo azul */
+            color: white; /* Color del texto blanco */
+            padding: 20px; /* Espaciado interno dentro de la caja */
+            width: 100px; /* Ancho fijo de la caja */
+            height: 100px; /* Altura fija de la caja */
+            text-align: center; /* Centra el texto horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cajas">Caja1</div>
+        <div class="cajas">Caja2</div>
+        <div class="cajas">Caja3</div>
+    </div>
+</body>
+</html>

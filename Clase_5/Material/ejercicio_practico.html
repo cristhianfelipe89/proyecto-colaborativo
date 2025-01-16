@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>
+            Mi Página Estilizada
+        </title> <!-- Enlace al archivo CSS externo --> 
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body> <!-- Encabezado de la Página --> 
+        <header> 
+            <h1>Bienvenidos a mi página web</h1> 
+            <p>Esta página muestra cómo aplicar diversos estilos CSS a diferentes elementos.</p> 
+        </header> <!-- Sección con información general --> 
+        <section class="contenido"> 
+            <h2 id="informacion">Información importante</h2> 
+            <p>CSS es fundamental para mejorar la presentación de nuestras páginas web.</p> 
+        </section> <!-- Formulario con varios campos de entrada --> <section> 
+            <h2>Formulario de Registro</h2> 
+            <form id="registro-form"> 
+                <label for="nombre">Nombre:</label> 
+                <input type="text" id="nombre" name="nombre" required> <br> 
+                <label for="email">Correo electrónico:</label> 
+                <input type="email" id="email" name="email" required> <br> 
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> 
+                <br> 
+                <button type="submit">Enviar</button> 
+            </form> </section> <!-- Tabla con algunos datos --> 
+            <section> 
+                <h2>Lista de Productos</h2> 
+                <table id="productos"> 
+                    <tr> 
+                        <th>Producto</th> 
+                        <th>Precio</th> 
+                    </tr> 
+                    <tr> 
+                        <td>Producto 1</td>
+                        <td>$10</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Producto 2</td>
+                        <td>$15</td>
+                    </tr> 
+                    <tr>
+                        <td>Producto 3</td> 
+                        <td>$20</td> 
+                    </tr> 
+                </table> 
+            </section> <!-- Caja con modelo de caja aplicado --> <section class="caja">
+                <h2>Sección Estilizada</h2>
+                <p>Esta sección tiene un borde, margen y relleno, demostrando el modelo de caja de CSS.</p> 
+            </section> <!-- Pie de página --> 
+            <footer> 
+                <p>© 2024 Jhonathan Giraldo Web</p>
+            </footer>
+    </body>
+</html>

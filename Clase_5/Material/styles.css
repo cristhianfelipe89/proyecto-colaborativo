@@ -1,0 +1,186 @@
+/* 1. Estilos Generales para el Body */
+body {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Color del texto oscuro */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Estilos para el Header */
+header {
+    background-color: #3498db; /* Fondo azul para el encabezado */
+    padding: 20px;
+    text-align: center; /* Alineación central para el texto */
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    color: white; /* Color blanco para el texto */
+}
+
+header p {
+    font-size: 18px;
+    color: #ecf0f1; /* Color gris claro para el párrafo */
+}
+
+/* 3. Estilos para la Sección de Contenido */
+.contenido {
+    background-color: #ecf0f1; /* Fondo gris muy claro */
+    padding: 20px;
+    margin: 30px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+#informacion {
+    color: #e74c3c; /* Color rojo para el encabezado */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 4. Estilos para el Formulario */
+form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    width: 300px;
+    margin: 0 auto; /* Centrado del formulario */
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #3498db; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9; /* Cambio de color cuando el cursor pasa sobre el botón */
+}
+
+/* 5. Estilos para la Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc; /* Borde gris claro para las celdas */
+}
+
+th {
+    background-color: #3498db; /* Fondo azul para los encabezados de la tabla */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris para filas pares */
+}
+
+tr:hover {
+    background-color: #dcdcdc; /* Fondo gris claro cuando se pasa el cursor sobre una fila */
+}
+
+/* 6. Modelo de Caja: Sección con clase "caja" */
+.caja {
+    width: 300px;
+    height: 150px;
+    padding: 20px; /* Espacio entre el borde y el contenido */
+    border: 5px solid #2ecc71; /* Borde verde */
+    margin: 30px auto; /* Centrado en la página */
+    background-color: rgba(0, 128, 0, 0.2); /* Fondo verde con opacidad */
+    text-align: center; /* Alineación central del texto */
+}
+
+.caja p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* 7. Estilización de Texto en Párrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6; /* Espaciado entre las líneas de texto */
+    color: #333; /* Color oscuro para el texto */
+}
+
+/* 8. Pie de Página */
+footer {
+    text-align: center;
+    background-color: #34495e; /* Fondo oscuro para el pie de página */
+    padding: 10px;
+    color: white; /* Texto blanco */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* 9. Selectores Combinados: Aplicación en el formulario y sus elementos */
+form label + input {
+    margin-top: 5px; /* Espacio adicional entre las etiquetas y los campos */
+}
+
+form input[type="email"]:focus, form input[type="text"]:focus, form textarea:focus {
+    border: 2px solid #3498db; /* Borde azul cuando el campo está enfocado */
+    outline: none; /* Eliminar el borde por defecto de los navegadores */
+}
+
+/* 10. Selectores Combinados Heredados: Estilo de los elementos dentro de la clase "contenido" */
+.contenido h2 {
+    color: #8e44ad; /* Color morado para los subtítulos */
+    font-size: 28px;
+}
+
+.contenido p {
+    font-size: 16px;
+    color: #7f8c8d; /* Color gris para los párrafos */
+}
+
+/* 11. Selección por Atributos: Estilo para los campos de entrada */
+input[type="email"], input[type="text"] {
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 90%;
+}
+
+/* 12. Selectores Hijos (>): Selección de elementos hijos directos */
+
+/* Aplicando el selector hijo al contenedor de formulario para aplicar estilos solo a los inputs directamente dentro del formulario */
+form > input, form > textarea {
+    border: 2px solid #3498db; /* Borde azul para los campos de entrada directos */
+    width: 90%;
+}
+
+/* Aplicando el selector hijo en la caja para afectar solo los párrafos que son hijos directos */
+.caja > p {
+    font-size: 20px;
+    color: #e74c3c; /* Color rojo para los párrafos dentro de la caja */
+}
+
+/* Aplicando el selector hijo para cambiar solo el primer encabezado dentro de la sección "contenido" */
+.contenido > h2 {
+    color: #2c3e50; /* Color gris oscuro para los encabezados directos */
+    font-size: 26px;
+}

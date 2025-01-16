@@ -1,0 +1,48 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+     background-color: black; 
+     color: white;
+}
+
+p{
+   background-color: azure; 
+   color: black; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   width: 300px;
+   margin: 30px;
+   auto;
+}
+
+.titulo1{
+    background-color: antiquewhite;
+    color:red;
+    border: 5px;
+    border-radius: blueviolet;
+    padding: 0%;
+    margin: 0%;
+}
+
+#titulo2{
+    background-color:darkcyan;
+    color:red;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a:hover{
+    text-decoration: none; 
+    color: brown;
+}
+
+form input[type="text"]{
+    border: red 5px solid
+}

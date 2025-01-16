@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = [
+  {
+    name: 'Alvaro',
+    score: 10,
+  },
+  {
+    name: 'Daniel',
+    score: 16,
+  },
+  {
+    name: 'Alexys',
+    score: 12,
+  },
+  {
+    name: 'Rafa',
+    score: 17,
+  },
+  {
+    name: 'Alejandro',
+    score: 8,
+  },
+  {
+    name: 'Sofia',
+    score: 9,
+  }
+]
+console.log(students)
+let approved = students.filter(student => student.score >= 11);
+console.log (approved)
+
+let url = 'https://jsonplaceholder.typicode.com/users'
+
+fetch(url)
+.then (res => res.json())
+.then (data => {
+    console.log(data)
+})
+.catch(Error => {
+    console.error("Error al obtener los datos")
+})
+
+    </script>
+</body>
+</html>

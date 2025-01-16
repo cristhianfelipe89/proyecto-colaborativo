@@ -1,0 +1,28 @@
+[
+        {
+            "nombre": "Televisor 4K",
+            "codigo": "TV001",
+            "cantidad": 10,
+            "precio": 300
+        },
+        {
+            "nombre": "Auriculares Bluetooth",
+            "codigo": "AU002",
+            "cantidad": 2,
+            "precio": 50
+        },
+        {
+            "nombre": "Smartphone",
+            "codigo": "SP003",
+            "cantidad": 0,
+            "precio": 500
+        },
+        {
+            "nombre": "Laptop",
+            "codigo": "LP004",
+            "cantidad": 15,
+            "precio": 800
+        }
+    ]
+
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3</title>
+</head>
+<body>
+
+    <h1>Tabla de Empleados</h1>
+
+    <table border="1">
+        <!-- Encabezado de la tabla -->
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Departamento</th>
+                <th>Fecha de Ingreso</th>
+            </tr>
+        </thead>
+
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ana Pérez</td>
+                <td>35</td>
+                <td>Ventas</td>
+                <td>2020-03-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Carlos López</td>
+                <td>42</td>
+                <td>Marketing</td>
+                <td>2018-07-01</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>María García</td>
+                <td>28</td>
+                <td>Desarrollo</td>
+                <td>2021-06-22</td>
+            </tr>
+        </tbody>
+
+        <!-- Pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="5">Total de empleados: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+      
+      <hr>
+
+      <h1>FORMULARIOS</h1>
+
+    <h1>Formulario de Registro</h1>
+    <form action="" method="POST">
+        <!-- Campo de texto para el nombre -->
+        <label for="name">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        <br><br>
+
+        <!-- Campo de correo electrónico -->
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+        <br><br>
+
+        <!-- Campo de contraseña -->
+        Contraseña:
+        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+        <br><br>
+
+        <!-- Campo de selección (Lista desplegable) -->
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br><br>
+
+        <!-- Casillas de verificación -->
+        <label for="terminos">Aceptar términos y condiciones:</label>
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <br><br>
+
+        <!-- Botón de opción (Radio buttons) -->
+        <fieldset>
+            <legend>Preferencia de Contacto:</legend>
+            <label for="emailc">Por correo electrónico</label>
+            <input type="radio" id="emailc" name="contacto" value="email" required>
+            <br>
+            <label for="numero_contacto">Por teléfono</label>
+            <input type="radio" id="numero_contacto" name="contacto" value="telefono">
+            <br>
+            <label for="ninguno">Ninguno</label>
+            <input type="radio" id="ninguno" name="contacto" value="ninguno">
+        </fieldset>
+        <br><br>
+
+        <!-- Campo de número -->
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" max="100" placeholder="Edad (18-100)" required>
+        <br><br>
+
+        <!-- Campo de fecha -->
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+
+        <!-- Campo de archivo -->
+        <label for="fotoperfil">Foto de perfil:</label>
+        <input type="file" id="fotoperfil" name="fotoperfil" accept="image/*">
+        <br><br>
+
+        <!-- Campo de texto largo (textarea) -->
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
+        <br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+        <br>
+        <input type="submit" value="Cancelar">
+    </form>
+
+      
+</body>
+</html>
