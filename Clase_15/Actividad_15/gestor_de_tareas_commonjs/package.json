@@ -1,0 +1,19 @@
+{
+  "name": "gestor_de_tareas_commonjs",
+  "version": "0.0.1",
+  "description": "gestor de tareas creado con la forma de importar y exportar de CommonJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "cristhianfelipe89",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

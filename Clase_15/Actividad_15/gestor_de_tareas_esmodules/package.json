@@ -1,0 +1,20 @@
+{
+  "name": "gestor_de_tareas_esmodules",
+  "version": "0.0.2",
+  "description": "gestor de tareas con ESmodules",
+  "main": "app_esm.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app_esm.js",
+    "dev": "nodemon src/app_esm.js"
+  },
+  "author": "cristhianfelipe89",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
