@@ -1,0 +1,245 @@
+{
+  "docentes": [
+    {
+      "nombre": "Jonathan",
+      "apellido": "Giraldo",
+      "asignaturas": [
+        {
+          "nombre": "html"
+        },
+        {
+          "nombre": "css"
+        },
+        {
+          "nombre": "node.js"
+        }
+      ],
+      "id": "e882"
+    },
+    {
+      "id": "20ca",
+      "nombre": "Devrier",
+      "apellido": "perez",
+      "asignaturas": [
+        {
+          "nombre": "Angular"
+        },
+        {
+          "nombre": "Laravel"
+        },
+        {
+          "nombre": "node.js"
+        },
+        {
+          "nombre": "Analitica de Datos en Python"
+        }
+      ]
+    },
+    {
+      "id": "af01",
+      "nombre": "Samir",
+      "apellido": "Rostchild",
+      "asignaturas": [
+        {
+          "nombre": "Angular"
+        },
+        {
+          "nombre": "Laravel"
+        },
+        {
+          "nombre": "node.js"
+        }
+      ]
+    }
+  ],
+  "estudiantes": [
+    {
+      "nombre": "Juan",
+      "apellido": "murillo",
+      "promedio": "7.5",
+      "id": "bd8f"
+    },
+    {
+      "nombre": "Hector",
+      "apellido": "Rosero",
+      "promedio": "6.5",
+      "id": "a7d9"
+    },
+    {
+      "nombre": "Michel",
+      "apellido": "Inagan",
+      "promedio": "8.2",
+      "id": "eded"
+    },
+    {
+      "id": "2346",
+      "nombre": "Estefania",
+      "apellido": "Montoya",
+      "promedio": "7.4"
+    },
+    {
+      "id": "1b65",
+      "nombre": "Daniel",
+      "apellido": "Arce",
+      "promedio": "8.2"
+    },
+    {
+      "id": "6749",
+      "nombre": "Isabel",
+      "apellido": "Lopez",
+      "promedio": "7.7"
+    },
+    {
+      "id": "609e",
+      "nombre": "Jusus Albenis",
+      "apellido": "Solis",
+      "promedio": "8.4"
+    },
+    {
+      "id": "e0ca",
+      "nombre": "Daniel",
+      "apellido": "Valencia",
+      "promedio": "7.8"
+    },
+    {
+      "id": "0ddc",
+      "nombre": "Kevin",
+      "apellido": "Soto",
+      "promedio": "9.6"
+    },
+    {
+      "id": "fc13",
+      "nombre": "Cristhian",
+      "apellido": "Herrera",
+      "promedio": "8.0"
+    }
+  ],
+  "boot": [
+    {
+      "nombre": "Fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "5cad"
+    },
+    {
+      "nombre": "Fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "d0a0"
+    },
+    {
+      "nombre": "Fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Basico",
+      "id": "3a26"
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "descripcion": "Conoceras más de la IA, aprendizaje automático y procesamiento del lenguaje natural",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "1a2b"
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "descripcion": "Conoceras más de la IA, aprendizaje automático y procesamiento del lenguaje natural",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "3c4d"
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "descripcion": "Conoceras más de la IA, aprendizaje automático y procesamiento del lenguaje natural",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "5e6f"
+    },
+    {
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "Diseñar entornos tecnológicos en la nube",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "7g8h"
+    },
+    {
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "Diseñar entornos tecnológicos en la nube",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "9i0j"
+    },
+    {
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "Diseñar entornos tecnológicos en la nube",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "1k2l"
+    },
+    {
+      "nombre": "Blockchain",
+      "descripcion": "Aprenderás sobre la tecnología de bloques",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "3m4n"
+    },
+    {
+      "nombre": "Blockchain",
+      "descripcion": "Aprenderás sobre la tecnología de bloques",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "5o6p"
+    },
+    {
+      "nombre": "Blockchain",
+      "descripcion": "Aprenderás sobre la tecnología de bloques",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "7q8r"
+    },
+    {
+      "nombre": "Ciberseguridad",
+      "descripcion": "Protección de sistemas informáticos y ataques informáticos",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "9s0t"
+    },
+    {
+      "nombre": "Ciberseguridad",
+      "descripcion": "Protección de sistemas informáticos y ataques informáticos",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "1u2v"
+    },
+    {
+      "nombre": "Ciberseguridad",
+      "descripcion": "Protección de sistemas informáticos y ataques informáticos",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "3w4x"
+    },
+    {
+      "nombre": "Análisis y visualización de datos",
+      "descripcion": "Extraer conocimiento significativo de grandes conjuntos de datos",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "5y6z"
+    },
+    {
+      "nombre": "Análisis y visualización de datos",
+      "descripcion": "Extraer conocimiento significativo de grandes conjuntos de datos",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "7a8b"
+    },
+    {
+      "nombre": "Análisis y visualización de datos",
+      "descripcion": "Extraer conocimiento significativo de grandes conjuntos de datos",
+      "duracion": "120 horas",
+      "nivel": "Básico",
+      "id": "9c0d"
+    }
+  ]
+}
