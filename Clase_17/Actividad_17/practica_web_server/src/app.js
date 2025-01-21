@@ -1,5 +1,10 @@
-const {envs} = require('./config/env.js') 
-const {iniciarServidor} = require('./server/server.js')
+//const {envs} = require('./config/env.js') 
+//const {iniciarServidor} = require('./server/server.js')
+
+
+import { envs } from "./config/env.js"
+import { iniciarServidor } from "./server/server.js"
+
 
 const main=() =>{
     //console.log(envs)
